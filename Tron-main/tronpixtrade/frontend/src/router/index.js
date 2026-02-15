@@ -38,6 +38,42 @@ const routes = [
     component: () => import('../views/pages/Pricing.vue'),
     meta: { title: 'Pricing' }
   },
+  {
+    path: '/privacy',
+    name: 'privacy',
+    component: () => import('../views/pages/Privacy.vue'),
+    meta: { title: 'Privacy Policy' }
+  },
+  {
+    path: '/terms',
+    name: 'terms',
+    component: () => import('../views/pages/Terms.vue'),
+    meta: { title: 'Terms of Service' }
+  },
+  {
+    path: '/help',
+    name: 'help',
+    component: () => import('../views/pages/Help.vue'),
+    meta: { title: 'Help Center' }
+  },
+  {
+    path: '/careers',
+    name: 'careers',
+    component: () => import('../views/pages/Careers.vue'),
+    meta: { title: 'Careers' }
+  },
+  {
+    path: '/partners',
+    name: 'partners',
+    component: () => import('../views/pages/Partners.vue'),
+    meta: { title: 'Partners' }
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('../views/pages/Blog.vue'),
+    meta: { title: 'Blog' }
+  },
 
   // Authentication Routes
   {
