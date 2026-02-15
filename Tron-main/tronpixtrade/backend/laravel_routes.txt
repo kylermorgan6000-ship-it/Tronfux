@@ -1,0 +1,7 @@
+
+In RouteListCommand.php line 235:
+                                                 
+  Class "App\Http\Controllers\TraderController"  
+   does not exist                                
+                                                 
+
